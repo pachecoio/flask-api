@@ -1,0 +1,10 @@
+version: "3.7"
+
+# services:
+  # flask-api:
+  #   image: thisk8brd/flask-api:prod
+  #   container_name: flask-api
+  #   build:
+  #     context: .
+  #     target: prod
+  #   entrypoint: ["gunicorn", "--reload", "--bind", "0.0.0.0:5000", "app:app"]
